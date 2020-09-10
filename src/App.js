@@ -2,16 +2,18 @@ import React from 'react';
 import './App.css';
 
 /* Local imports */
-import Title from './Title';
-import DadJoke from './DadJoke'
+import Title from './components/Title';
+import DadJoke from './components/DadJoke';
+import Bikes from './components/Bikes';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <Title />
       <DadJoke />
+      <Bikes />
     </div>
   );
-}
+};
 
 export default App;

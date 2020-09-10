@@ -8,8 +8,10 @@ body {
 }
 
 @keyframes test {
-  from {background-color: #66FF66;}
-  to {background-color: #6666FF;}
+  0% {background-color: #66FF66;}
+  33% {background-color: #FF6666;}
+  66% {background-color: #6666FF;}
+  100% {background-color: #66FF66;}
 }
 
 .Header {
@@ -19,7 +21,7 @@ body {
   padding: 40px 40px;
   margin-block-start: 0;
   margin-block-end: 0;
-  animation: test 2s alternate infinite;
+  /* animation: test 1s linear infinite; */
 }
 
 .DadJoke {
@@ -29,8 +31,9 @@ body {
   font-size: 30px;
 }
 
-.Buss
-{
+.Stations {
   padding: 80px 80px;
   background: #6666FF;
+  color: white;
+  font-size: 30px;
 }
