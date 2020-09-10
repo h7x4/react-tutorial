@@ -1,38 +1,36 @@
+body {
+  margin: 0 30%;
+  background: black;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@keyframes test {
+  from {background-color: #66FF66;}
+  to {background-color: #6666FF;}
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Header {
+  font-size: 4em;
+  color: Black;
+  background: #66FF66;
+  padding: 40px 40px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  animation: test 2s alternate infinite;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.DadJoke {
+  padding: 80px 80px;
+  background: #FF6666;
   color: white;
+  font-size: 30px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Buss
+{
+  padding: 80px 80px;
+  background: #6666FF;
 }
