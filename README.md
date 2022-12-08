@@ -1,3 +1,3 @@
 # Min infoskjerm
 
-access at https://h7x4abk3g.github.io/react-tutorial/
+Access at https://h7x4.github.io/react-tutorial/
